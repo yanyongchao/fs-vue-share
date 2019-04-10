@@ -1,0 +1,54 @@
+{
+  "name": "fubei-operate-background",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lint:style": "stylelint src --fix",
+    "test:e2e": "vue-cli-service test:e2e",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.1.9",
+    "axios": "^0.18.0",
+    "core-js": "^2.6.5",
+    "js-md5": "^0.7.3",
+    "nprogress": "^0.2.0",
+    "path-to-regexp": "^3.0.0",
+    "v-viewer": "^1.4.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "xlsx": "^0.14.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-plugin-e2e-nightwatch": "^3.0.4",
+    "@vue/cli-plugin-eslint": "^3.0.4",
+    "@vue/cli-plugin-unit-jest": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "@vue/eslint-config-standard": "^3.0.5",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^23.0.1",
+    "babel-plugin-import": "^1.11.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "lint-staged": "^8.1.0",
+    "style-resources-loader": "^1.2.1",
+    "svg-sprite-loader": "^4.1.3",
+    "vue-cli-plugin-element": "^1.0.0",
+    "vue-cli-plugin-fs-stylelint": "^0.1.2",
+    "vue-cli-plugin-style-resources-loader": "^0.1.3",
+    "vue-template-compiler": "^2.5.17",
+    "webpack-cli": "^3.1.2"
+  },
+  "auth": "",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@app-api-test.51youdian.com:1105/web/fubei-operate-background.git"
+  }
+}

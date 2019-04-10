@@ -1,0 +1,163 @@
+/* 公共的样式 */
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 16px;
+  font-family: @font-family;
+}
+#app {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+a,
+a:focus,
+a:hover {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+pre {
+  margin: 0;
+  line-height: 1.5;
+  font-family: inherit;
+}
+.text--primary { color: @primary-color; }
+.text--left { text-align: left; }
+.text--center { text-align: center; }
+.text--right { text-align: right; }
+.pull--left { float: left; }
+.pull--right { float: right; }
+.m-15 { margin: 15px; }
+.m-t-10 { margin-top: 10px; }
+.m-t-15 { margin-top: 15px; }
+.m-t-20 { margin-top: 20px; }
+.m-t-30 { margin-top: 30px; }
+.m-b-0 { margin-bottom: 0 !important; }
+.m-b-5 { margin-bottom: 5px; }
+.m-b-10 { margin-bottom: 10px !important; }
+.m-b-15 { margin-bottom: 15px; }
+.m-b-17 { margin-bottom: 17px !important; }
+.m-l-5 { margin-left: 5px; }
+.m-l-10 { margin-left: 10px; }
+.m-l-15 { margin-left: 15px; }
+.m-l-20 { margin-left: 20px; }
+.p-0 { padding: 0; }
+.p-t-30 { padding-top: 30px; }
+.p-b-30 { padding-bottom: 30px; }
+.p-t-10 { padding-top: 10px; }
+.p-b-10 { padding-bottom: 10px; }
+.m-r-5 { margin-right: 5px; }
+.m-r-10 { margin-right: 10px; }
+.m-r-15 { margin-right: 15px; }
+.m-r-70 { margin-right: 70px; }
+.clearfix::after { content: '\20'; clear: both; display: block; height: 0; }
+.clearfix { *zoom: 1; }
+
+/* font-size */
+.fs-xxxs { font-size: 10px; }
+.fs-xxs { font-size: 12px; }
+.fs-xs { font-size: 14px; }
+.fs-sm { font-size: 16px; }
+.fs-md { font-size: 18px; }
+.fs-lg { font-size: 20px; }
+.fs-xl { font-size: 30px; }
+
+/** 重置antd样式 */
+.ant-form-item {
+  margin-bottom: 20px !important;
+}
+
+/* $confirm 弹框中的图标不展示 */
+.ant-modal-confirm-body i {
+  display: none;
+}
+
+/* 标题居中 */
+.ant-modal-confirm-body .ant-modal-confirm-title {
+  margin-left: 38px;
+}
+.ant-modal-confirm-content {
+  width: 240px;
+}
+
+/* message 弹框 */
+.ant-modal-confirm-confirm {
+  width: 279px !important;
+  .ant-modal-content {
+    width: 279px;
+    .ant-modal-body {
+      width: 279px;
+      .ant-modal-confirm-content,
+      .ant-modal-confirm-title {
+        margin-left: 0;
+      }
+      .ant-modal-confirm-content {
+        width: 215px;
+      }
+    }
+  }
+}
+.ant-list-empty-text {
+  padding: 0 !important;
+}
+
+.ant-btn-primary {
+  box-shadow: none !important;
+}

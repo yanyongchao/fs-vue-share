@@ -1,0 +1,7 @@
+*.js
+*.png
+*.eot
+*.ttf
+*.woff
+src/assets/styles/rest.less
+src/assets/styles/common.less

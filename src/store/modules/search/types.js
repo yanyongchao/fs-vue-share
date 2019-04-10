@@ -1,0 +1,1 @@
+export const SAVE_LIST_PAGE_PARS = 'SAVE_LIST_PAGE_PARS'
